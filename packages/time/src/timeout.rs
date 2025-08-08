@@ -1,6 +1,6 @@
 use dioxus::{
-    dioxus_core::SpawnIfAsync,
-    prelude::{Callback, Task, spawn, use_hook},
+    dioxus_core::{SpawnIfAsync, Task},
+    prelude::{Callback, spawn, use_hook},
     signals::Signal,
 };
 use futures::{SinkExt, StreamExt, channel::mpsc};
